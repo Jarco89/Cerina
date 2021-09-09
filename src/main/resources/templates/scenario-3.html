@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <title>Cerina scenario 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/bundle/irma.css"/>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #abort-button {
+        margin: 20px;
+      }
+    </style>
+
+
+</head>
+
+<body class="irma-web-center-child column">
+<input type="hidden" name="irma-scenario" value=scenario-3>
+
+<section class="irma-web-form" id="irma-web-form"></section>
+<button id="abort-button">Abort</button>
+
+<h2>Attribute issuance</h2>
+<p>
+
+</p>
+<label for="naam" class="label">naam:</label>
+<input type="text" id="naam" value="John"><br/>
+<label for="stad" class="label">Stad:</label>
+<input type="text" id="stad" value="Amsterdam"><br/>
+<label for="bsn" class="label">BSN:</label>
+<input type="text" id="bsn" value="123456789"><br/>
+<label for="leeftijd" class="label">Leeftijd:</label>
+<input type="text" id="leeftijd" value="31"><br/>
+
+<button id="issuance">Issue attributen</button>
+
+<p>De credential (cerina-credential) met de attributen die uitgegeven worden zijn voornaam, stad, BSN en leeftijd. <br/> De waarden kan de gebruiker zelf invullen. We simuleren hiermee een uitgever van attributen. Er is
+geen policy hiervoor.</p>
+
+</body>
+<script src="/bundle/irmaissuer.js" type="text/javascript"></script>
+</html>

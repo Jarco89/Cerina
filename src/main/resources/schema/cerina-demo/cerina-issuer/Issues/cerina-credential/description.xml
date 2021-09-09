@@ -1,0 +1,64 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Cerina Attributen</en>
+        <nl>Demo Cerina Attributen</nl>
+    </Name>
+    <ShortName>
+        <en>Demo Cerina Attributen</en>
+        <nl>Demo Cerina Attributen</nl>
+    </ShortName>
+    <SchemeManager>cerina-demo</SchemeManager>
+    <IssuerID>cerina-issuer</IssuerID>
+    <CredentialID>cerina-credential</CredentialID>
+    <Description>
+        <en>Attributen issued by Cerina</en>
+        <nl>Attributen uitgegeven door Cerina</nl>
+    </Description>
+    <IssueURL>
+        <en>http://192.168.178.17:8080/scenario-3</en>
+        <nl>http://192.168.178.17:8080/scenario-3</nl>
+    </IssueURL>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+    <Attributes>
+        <Attribute id="naam">
+            <Name>
+                <en>Voornaam</en>
+                <nl>Voornaam</nl>
+            </Name>
+            <Description>
+                <en>Your first name</en>
+                <nl>Uw voornaam</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="stad">
+            <Name>
+                <en>City</en>
+                <nl>Stad</nl>
+            </Name>
+            <Description>
+                <en>The city you live in</en>
+                <nl>Uw woonplaats</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="bsn">
+            <Name>
+                <en>BSN</en>
+                <nl>BSN</nl>
+            </Name>
+            <Description>
+                <en>Your Dutch Citizen service number (BSN)</en>
+                <nl>Uw Burgerservicenummer (BSN)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="leeftijd">
+            <Name>
+                <en>Leeftijd</en>
+                <nl>Leeftijd</nl>
+            </Name>
+            <Description>
+                <en>Uw leeftijd</en>
+                <nl>Uw leeftijd</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>

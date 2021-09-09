@@ -1,0 +1,14 @@
+<SchemeManager version="7">
+	<Id>cerina-demo</Id>
+	<Demo>true</Demo>
+	<Name>
+		<en>Demo Cerina</en>
+		<nl>Demo Cerina</nl>
+	</Name>
+	<Description>
+		<en>Demo credentials within the Cerina domain</en>
+		<nl>Demo Cerina-credentials</nl>
+	</Description>
+	<TimestampServer>https://keyshare.privacybydesign.foundation/atumd/</TimestampServer>
+	<Contact>Jarco Schutrup</Contact>
+</SchemeManager>

@@ -1,0 +1,99 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Cerina Corna Attributes</en>
+        <nl>Demo Cerina Corona Attributen</nl>
+    </Name>
+    <ShortName>
+        <en>Demo Cerina Corna Attributes</en>
+        <nl>Demo Cerina Corna Attributen</nl>
+    </ShortName>
+    <SchemeManager>cerina-demo</SchemeManager>
+    <IssuerID>cerina-issuer</IssuerID>
+    <CredentialID>cerina-corona-credential</CredentialID>
+    <Description>
+        <en>Attributen issued by Cerina</en>
+        <nl>Attributen uitgegeven door Cerina</nl>
+    </Description>
+    <IssueURL>
+        <en>http://192.168.178.17:8080/scenario-14</en>
+        <nl>http://192.168.178.17:8080/scenario-14</nl>
+    </IssueURL>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+    <Attributes>
+        <Attribute id="gevaccineerd">
+            <Name>
+                <en>Gevacineerd</en>
+                <nl>Gevacineerd</nl>
+            </Name>
+            <Description>
+                <en>Are you vaccinated?</en>
+                <nl>Bent u gevaccineerd?</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aantalvaccinaties">
+            <Name>
+                <en>aantalvaccinaties</en>
+                <nl>aantalvaccinaties</nl>
+            </Name>
+            <Description>
+                <en>Ammount of times vaccinated?</en>
+                <nl>Hoevaak bent u gevaccineerd?</nl>
+            </Description>
+        </Attribute>
+
+		<Attribute id="vaccinatiepaspoort">
+			<Name>
+				<en>Vaccinatie paspoort</en>
+				<nl>Vaccinatie paspoort</nl>
+			</Name>
+			<Description>
+				<en>Do you have a vaccination passport?</en>
+				<nl>Heeft u een vaccinatiepaspo?</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="sneltest">
+			<Name>
+				<en>Quick test</en>
+				<nl>Sneltest</nl>
+			</Name>
+			<Description>
+				<en>Do you have a corona quick test?</en>
+				<nl>Heeft u een corona sneltest?</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="sneltestdatum">
+			<Name>
+				<en>Quick test date</en>
+				<nl>Sneltest datum</nl>
+			</Name>
+			<Description>
+				<en>When was the corona quick test?</en>
+				<nl>Wanneer was de corona sneltest?</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="antilichamen">
+			<Name>
+				<en>Anti bodies</en>
+				<nl>Antistoffen</nl>
+			</Name>
+			<Description>
+				<en>Do you have a anti bodies proof?</en>
+				<nl>Heeft u een antilichamenbewijs?</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="antilichamendatum">
+			<Name>
+				<en>Date antibodiestest</en>
+				<nl>Datum antilichamenbewijs</nl>
+			</Name>
+			<Description>
+				<en>When was the antibody test?</en>
+				<nl>Wanneer was de antistoffentest?</nl>
+			</Description>
+		</Attribute>
+
+
+    </Attributes>
+</IssueSpecification>

@@ -1,0 +1,15 @@
+<Issuer version="4">
+  <ID>cerina-issuer</ID>
+  <Name>
+	  <en>Demo Cerina</en>
+	  <nl>Demo Cerina</nl>
+  </Name>
+  <ShortName>
+	  <en>Demo Cerina</en>
+	  <nl>Demo Cerina</nl>
+  </ShortName>
+  <SchemeManager>cerina-demo</SchemeManager>
+  <ContactAddress>Een cerina-demo</ContactAddress>
+  <ContactEMail>jarco.schutrup@gmail.com</ContactEMail>
+  <baseURL></baseURL>
+</Issuer>

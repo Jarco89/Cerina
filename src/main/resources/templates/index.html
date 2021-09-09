@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Cerina prototype. Welcome!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+        height: 100vh;
+        margin: 0;
+    }
+
+    .block-center {
+        display: grid;
+        place-items: center center;
+    }
+        .button-green {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+        }
+
+        .button-red {
+      background-color: #FF0000; /* Red */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+        }
+
+
+</style>
+
+</head>
+
+<body class="block-center">
+<main>
+    <h1>Cerina's ABAC prototype gekoppeld aan IRMA</h1>
+
+    <div><b>Policies met een disjunctie of conjunctie</b></div>
+    <hr/>
+
+<a href="scenario-1-jwt"><button class="button-green">Scenario 1 (Woonplaats) </button></a>
+<a href="scenario-2-jwt"><button class="button-green" style="margin-left: 180px;">Scenario 2 (Woonplaats en naam)</button></a><br><br>
+
+<a href="scenario-3"><button class="button-green">Scenario 3 (Issue Cerina attributen via schema)</button></a>
+
+<a href="scenario-4-jwt"><button class="button-green" style="margin-left: 20px;">Scenario 4 (Gebruik Cerina attributen)</button></a><br><br>
+
+    <div><b>Policies met database interactie</b></div>
+    <hr/>
+
+<a href="scenario-5-jwt"><button button class="button-green" >Scenario 5 (Bezoekers tellen)</button></a>
+
+<a href="scenario-6-jwt"><button button class="button-green" style="margin-left: 145px;">Scenario 6 (Maximum gebruikers per uur)</button></a><br><br>
+
+<a href="scenario-7-jwt"><button button class="button-green">Scenario 7 (Totaal maximum gebruikers)</button></a>
+
+<a href="scenario-8-jwt"><button button class="button-green" style="margin-left: 62px;">Scenario 8 (Verwijder resource)</button></a><br><br>
+
+<a href="scenario-9-jwt"><button button class="button-green">Scenario 9 (Twee fasen autorisatie)</button></a><br><br>
+
+    <div><b>Policies met omgevingsvariabelen</b></div>
+    <hr/>
+
+<a href="scenario-10-jwt"><button button class="button-green" >Scenario 10 (Toegang tussen 9-5)</button></a>
+
+<a href="scenario-11-jwt"><button button class="button-green" style="margin-left: 117px;">Scenario 11 (Open of gesloten)</button></a><br><br>
+
+    <div><b>Policies met string functies</b></div>
+    <hr/>
+
+<a href="scenario-12-jwt"><button button class="button-green">Scenario 12 (Regex)</button></a>
+
+<a href="scenario-13-jwt"><button button class="button-green" style="margin-left: 214px;">Scenario 13 (Startswith)</button></a><br><br>
+
+    <div><b>Policy bestaande uit een disjunctie van conjuncties en omgevingsvariabelen</b></div>
+    <hr/>
+
+<a href="scenario-14"><button button class="button-green" >Scenario 14 (Issue Attributen met coronatest)</button></a>
+
+<a href="scenario-15-jwt" style="margin-left: 25px;"><button button class="button-green">Scenario 15 Coronatest disjunctie en conjunctie met omgevingsvariabelen</button></a><br><br>
+
+    <div><b>Policy met relaties</b></div>
+    <hr/>
+
+<a href="scenario-16-jwt"><button button class="button-green">Scenario 16 Actie met relatie</button></a><br><br>
+
+    <!--
+    <a href="scenario-1"><button>Cerina scenario 1 (werkt niet meer door JWT controle)</a><br>
+    <a href="scenario-2"><button>Cerina scenario 2 (werkt niet meer door JWT controle)</a><br><br><br>
+    -->
+
+</main>
+
+</body>
+
+</html>
