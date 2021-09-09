@@ -4,7 +4,6 @@
 https://irma.app/docs/getting-started/
 
 # Vervolgens, onze irma-frontend-packages uitchecken en naar wijzen. De directory
-
 IN ~/Cerina/node_modules/@privacybydesign$ 
 voer uit:
 sudo npm link /home/jarco/irma-frontend-packages/plugins/irma-client
